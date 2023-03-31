@@ -1,5 +1,5 @@
 # FROM python base image
-FROM python:2-alpine
+FROM python:3.12.0a5-slim-buster
 
 # COPY startup script
 COPY . /app
